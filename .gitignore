@@ -1,0 +1,3 @@
+# Ignore python cache and python file that contains token
+software/bot/mytoken.py
+software/bot/__pycache__
