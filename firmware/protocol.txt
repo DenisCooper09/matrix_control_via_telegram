@@ -1,0 +1,21 @@
+Protocol of sending data.
+
+x - x coordinate
+y - y coordinate
+s - led status
+
+V - value
+
+xVyVsV
+
+Example of sending a request to turn on the LED at X: 0 Y: 5
+
+x0y5s1
+
+
+Example of sending a request to turn off the LED at X: 2 Y: 7
+
+x2y7s0
+
+
+You can send requests however you like (in my case through a Telegram bot), but the main thing is to follow the protocol.
